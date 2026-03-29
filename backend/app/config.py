@@ -1,0 +1,3 @@
+"""Configuration placeholders"""
+
+DEBUG = True
