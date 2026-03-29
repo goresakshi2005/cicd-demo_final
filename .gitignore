@@ -1,3 +1,15 @@
-node_modules/
+# Python
 __pycache__/
+*.pyc
+venv/
 .env
+test.db
+
+# Node
+node_modules/
+build/
+coverage/
+
+# IDE
+.vscode/
+.idea/
