@@ -9,7 +9,7 @@ def test_create_and_get_product(client):
     resp = client.post("/api/products/", json=product, headers=headers)
     assert resp.status_code == 201
     prod_id = resp.json()["id"]
-    # Get
+    # Get (public endpoint)
     resp = client.get(f"/api/products/{prod_id}")
     assert resp.status_code == 200
     assert resp.json()["name"] == "Laptop"
