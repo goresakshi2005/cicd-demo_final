@@ -1,4 +1,4 @@
-"""Run backend (development)"""
+import uvicorn
 
 if __name__ == "__main__":
-    print("Run the app with: uvicorn backend.app.main:app --reload")
+    uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)
