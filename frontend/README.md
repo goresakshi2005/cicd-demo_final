@@ -9,3 +9,4 @@ Full‑stack application with FastAPI backend, React frontend, JWT auth, product
 cd backend
 pip install -r requirements.txt
 python run.py
+pip install pydantic-settings
